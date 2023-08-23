@@ -1,0 +1,30 @@
+body {
+    height:100%;
+    background-image:url("pexels-content-pixie-2736499.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+  .container {
+    max-width: 400px;
+    height:500px;
+  }
+  input[type="text"],
+  input[type="text"]:focus {
+    color: rgb(255, 255, 255);
+    border: white;
+    background: rgb(0, 0, 0);
+    max-width: 400px;
+  }
+  .todos li {
+    background: #3f7a7a;
+  }
+  .delete {
+    cursor: pointer;
+  }
+  .filtered {
+    display: none !important;
+  }
+  .text-dark{
+    margin:10px;
+  }
